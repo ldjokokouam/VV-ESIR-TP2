@@ -14,6 +14,12 @@ Answer the following questions:
  **1.** L'assertion (3 * .4 == 1.2) ne fonctionne pas car les nombres à virgule flottante ne sont pas représentés de manière exacte. Par conséquent, des erreurs d'arrondi peuvent se produire. De plus, les flottants sont stockés en mémoire avec une précision limitée. Le calcul 3 * .4 ne pourra on pas être égal à 1.2.
  
     Pour résoudre ce problème, on peut utiliser une marge d'erreur ε :
+=======
+
+**1.** L'assertion `assertTrue(3 * .4 == 1.2)` ne marche pas car les nombres à virgule flottante ne sont pas représentés de manière exacte. Par conséquent, il peut y avoir des erreurs d'arrondi comme ici. Cela s'explique par le fait que les flotants sont stockés en mémoire avec une précision limitée. Donc le résultat de `3 * .4` ne peut pas être égal à 1.2.
+    
+    De plus, utiliser le comparateur == peut être trompeur à cause des arrondi. La meilleure approche est d'utiliser une marge d'erreur ε :
+    
     
     double result = 3 * .4;
     double expected = 1.2;
@@ -21,3 +27,8 @@ Answer the following questions:
     
     assertTrue(Math.abs(result - expected) < epsilon);
     
+=======
+
+
+**2.**
+
