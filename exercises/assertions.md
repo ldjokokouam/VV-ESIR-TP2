@@ -12,10 +12,10 @@ Answer the following questions:
 
 ## Answer
 
-**1.** L'assertion `assertTrue(3 * .4 == 1.2)` ne marche pas car les nombres à virgule flottante ne sont pas représentés de manière exacte. Par conséquent, il peut y avoir des erreurs d'arrondi comme ici. Cela s'explique par le fait que les flotants sont stockés en mémoire avec une précision limitée. Donc le résultat de `3 * .4` ne peut pas être égal à 1.2.
+### **Question 1**
+L'assertion `assertTrue(3 * .4 == 1.2)` ne marche pas car les nombres à virgule flottante ne sont pas représentés de manière exacte. Par conséquent, il peut y avoir des erreurs d'arrondi comme ici. Cela s'explique par le fait que les flotants sont stockés en mémoire avec une précision limitée. Donc le résultat de `3 * .4` ne peut pas être égal à 1.2.
     
     De plus, utiliser le comparateur == peut être trompeur à cause des arrondi. La meilleure approche est d'utiliser une marge d'erreur ε :
-    
     
     double result = 3 * .4;
     double expected = 1.2;
@@ -23,5 +23,33 @@ Answer the following questions:
     
     assertTrue(Math.abs(result - expected) < epsilon);
 
-**2.**
+### **Question 2**
+AssertEquals compare les valeurs tandis que AssertSame compare les références. Les deux méthodes prennent en paramètres le résultat attendu et le résultat réel : AssertEquals(expected, actual), AssertSame(expected, actual). 
+
+Voici quelques exemples pour illustrer :
+
+    /**
+     * Dans cet exemple, str et str2 ne font pas référence au même objet.
+     * En revanche, les valeurs de str1 et str2 sont égales.
+     */
+    public void testSameEquals() {
+        String str1 = new String("Salut");
+        String str2 = new String("Salut");
+        assertSame("Les références ne sont pas les mêmes", str1, str2);
+        assertEquals("Les valeurs ne sont pas les mêmes", str1, str2);
+    }
+
+    /**
+     * Dans cet exemple, str et str2 font référence au même objet.
+     * En revanche, les valeurs de str1 et str2 sont égales.
+     */
+    public void testSameEquals2() {
+        String str1 = new String("Salut");
+        String str2 = str1;
+        assertSame("Les références ne sont pas les mêmes", str1, str2);
+        assertEquals("Les valeurs ne sont pas les mêmes", str1, str2);
+    }
+    
+### **Question 3**
+
 
