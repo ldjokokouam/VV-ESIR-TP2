@@ -11,10 +11,6 @@ Answer the following questions:
 4. In JUnit 4, an exception was expected using the `@Test` annotation, while in JUnit 5 there is a special assertion method `assertThrows`. In your opinion, what are the advantages of this new way of checking expected exceptions?
 
 ## Answer
- **1.** L'assertion (3 * .4 == 1.2) ne fonctionne pas car les nombres à virgule flottante ne sont pas représentés de manière exacte. Par conséquent, des erreurs d'arrondi peuvent se produire. De plus, les flottants sont stockés en mémoire avec une précision limitée. Le calcul 3 * .4 ne pourra on pas être égal à 1.2.
- 
-    Pour résoudre ce problème, on peut utiliser une marge d'erreur ε :
-=======
 
 **1.** L'assertion `assertTrue(3 * .4 == 1.2)` ne marche pas car les nombres à virgule flottante ne sont pas représentés de manière exacte. Par conséquent, il peut y avoir des erreurs d'arrondi comme ici. Cela s'explique par le fait que les flotants sont stockés en mémoire avec une précision limitée. Donc le résultat de `3 * .4` ne peut pas être égal à 1.2.
     
@@ -26,9 +22,6 @@ Answer the following questions:
     double epsilon = 10E-5;
     
     assertTrue(Math.abs(result - expected) < epsilon);
-    
-=======
-
 
 **2.**
 
