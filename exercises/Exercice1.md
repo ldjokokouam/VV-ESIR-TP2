@@ -23,7 +23,6 @@ public class Rectangle {
     public void aire() {
         return x*y;
     }
-    
 }
 
  Dans cet exemple, les méthodes prerimetre() et aire() accèdent aux mêmes attributs, à savoir x et y. Ici, TCC et LCC auront la même valeur (toutes les paires de méthodes sont connectées).
