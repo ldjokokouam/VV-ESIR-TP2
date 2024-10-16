@@ -52,4 +52,16 @@ Voici quelques exemples pour illustrer :
     
 ### **Question 3**
 
+**Premier exemple :**
 
+- Si un test échoue en raison de facteurs externes comme un problème de réseau, fail() peut permettre de signaler l'échec. Il permet également d'expliquer la raison de l'échec à l'aide d'un message.
+
+    @Test
+    public void testServiceExterne() {
+        try {
+            // Code interagissant avec un service externe
+            // ...
+        } catch (IOException e) {
+            fail("Échec du test dû à une erreur réseau : " + e.getMessage());
+        }
+    }
