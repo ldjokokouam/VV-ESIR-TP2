@@ -6,7 +6,7 @@ A refresher on TCC and LCC is available in the [course notes](https://oscarlvp.g
 
 ## Answer
 
-**1.** Quand TCC et LCC produisent-ils la même valeur ? 
+### **Question 1 : Quand TCC et LCC produisent-ils la même valeur ?** 
 
 TCC et LCC produisent la même valeur pour une classe lorsque toutes les méthodes de cette classe accèdent directement au mêmes attributs. Ainsi, toutes les paires de méthodes de cette classe accèdent directement aux mêmes attributs.
 
