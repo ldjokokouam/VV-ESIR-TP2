@@ -30,6 +30,7 @@ export JAVAFX_HOME=/Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2
     
 ### **Écriture de la règle pour détecter les if imbriqués**
 
+```xml
 <?xml version="1.0"?>
 <ruleset name="ComplexityRules"
          xmlns="http://pmd.sourceforge.net/ruleset_2.0.0"
@@ -62,6 +63,7 @@ export JAVAFX_HOME=/Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2
         <priority>3</priority>
     </rule>
 </ruleset>
+
 
 Ce code a été généré à l'aide de pmd designer.
     
