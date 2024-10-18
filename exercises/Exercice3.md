@@ -52,9 +52,7 @@ export JAVAFX_HOME=/Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2
         <properties>
             <property name="xpath">
                 <value>
-<![CDATA[
-//IfStatement[count(ancestor::IfStatement) >= 2]
-]]>
+<![CDATA[//IfStatement[count(ancestor::IfStatement) >= 2]]]>
                 </value>
             </property>
         </properties>
