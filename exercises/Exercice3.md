@@ -74,6 +74,7 @@ pmd check -d ./ -R /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_
     
 **Test de la règle sur le projet commons-collections :**
 
+```
 ./CollectionUtils.java:1866:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
 ./CollectionUtils.java:1868:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
 ./CollectionUtils.java:1870:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
@@ -135,7 +136,7 @@ pmd check -d ./ -R /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_
 ./trie/AbstractPatriciaTrie.java:1643:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
 ./trie/AbstractPatriciaTrie.java:1991:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
 ./trie/AbstractPatriciaTrie.java:2054:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
-
+```
 
     
 ### **Test de la règle sur le projet commons-cli**
@@ -145,6 +146,7 @@ pmd check -d ./ -R /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_
 
 **Résultat stocké dans resultCommonscli.txt**
 
+```
 ./DefaultParser.java:404:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
 ./DefaultParser.java:465:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
 ./DefaultParser.java:468:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
@@ -180,4 +182,4 @@ pmd check -d ./ -R /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_
 ./PosixParser.java:152:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
 ./PosixParser.java:154:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
 ./PosixParser.java:156:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
-
+```
