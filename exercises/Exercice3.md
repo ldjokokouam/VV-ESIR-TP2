@@ -63,7 +63,7 @@ export JAVAFX_HOME=/Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2
         <priority>3</priority>
     </rule>
 </ruleset>
-
+```xml
 
 Ce code a été généré à l'aide de pmd designer.
     
