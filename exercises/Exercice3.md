@@ -70,15 +70,22 @@ Ce code a été généré à l'aide de pmd designer.
 
 pmd check -d /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_SI/Semestre_7/VV/TP/TP2/VV-ESIR-TP2/exercises/commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java -R /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_SI/Semestre_7/VV/TP/TP2/VV-ESIR-TP2/exercises/complexity-rules.xml -f text -r resultMap.txt
     
-**Résultat :**
+**Résultat stocké dans resultMap :**
 
 /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_SI/Semestre_7/VV/TP/TP2/VV-ESIR-TP2/exercises/commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java:230:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
+
 /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_SI/Semestre_7/VV/TP/TP2/VV-ESIR-TP2/exercises/commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java:233:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
+
 /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_SI/Semestre_7/VV/TP/TP2/VV-ESIR-TP2/exercises/commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java:236:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
+
 /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_SI/Semestre_7/VV/TP/TP2/VV-ESIR-TP2/exercises/commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java:930:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
+
 /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_SI/Semestre_7/VV/TP/TP2/VV-ESIR-TP2/exercises/commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java:933:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
+
 /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_SI/Semestre_7/VV/TP/TP2/VV-ESIR-TP2/exercises/commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java:1674:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
+
 /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_SI/Semestre_7/VV/TP/TP2/VV-ESIR-TP2/exercises/commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java:1677:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
+
 /Users/djoko-kouam/Documents/Université_Rennes_1/ESIR/ESIR2_SI/Semestre_7/VV/TP/TP2/VV-ESIR-TP2/exercises/commons-collections/src/main/java/org/apache/commons/collections4/MapUtils.java:1995:    NestedIfRule:    Évitez dutiliser des instructions « if » profondément imbriquées. Envisagez de remanier le code pour en améliorer la lisibilité et la maintenance.
 
     
